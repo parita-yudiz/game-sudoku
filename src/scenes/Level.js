@@ -1,9 +1,9 @@
 
 // You can write more code here
-//import Phaser from "phaser";
+import Phaser from "phaser";
 /* START OF COMPILED CODE */
 
-class Level extends Phaser.Scene {
+export default class Level extends Phaser.Scene {
 
 	constructor() {
 		super("Level");
